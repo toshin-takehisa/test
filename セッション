@@ -6,8 +6,8 @@ $log_status_file = 'log_status.txt';
 file_put_contents($log_status_file, '0');
 
 // セッションのクリア
-//session_unset();
-//session_destroy();
+
+//ssion_destroy();
 
 // ログアウトが成功したというレスポンス
 echo json_encode(['status' => 'success']);
