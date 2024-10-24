@@ -13,3 +13,4 @@ file_put_contents($log_status_file, '0');
 echo json_encode(['status' => 'success']);
 exit();
 ?>
+テストを書きます
